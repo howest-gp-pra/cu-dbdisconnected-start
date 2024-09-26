@@ -31,23 +31,29 @@ namespace Pra.DbDisconnected.WPF
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
         }
-        private void btnSorteer_Click(object sender, RoutedEventArgs e)
+        private void Sort_Click(object sender, RoutedEventArgs e)
         {
+
         }
-        private void btnFilter_Click(object sender, RoutedEventArgs e)
+        private void Filter_Click(object sender, RoutedEventArgs e)
         {
+
         }
-        private void btnToevoegen_Click(object sender, RoutedEventArgs e)
+        private void AddAuthor_Click(object sender, RoutedEventArgs e)
         {
+
         }
-        private void btnBoekToevoegen_Click(object sender, RoutedEventArgs e)
+        private void AddBook_Click(object sender, RoutedEventArgs e)
         {
+
         }
-        private void btnVerwijderAuteur_Click(object sender, RoutedEventArgs e)
+
+        private void RemoveAuthor_Click(object sender, RoutedEventArgs e)
         {
-            if (dgAuteur.SelectedIndex > -1)
+            if (dgAuthors.SelectedIndex > -1)
             {
             }
+
         }
     }
 }
